@@ -1,4 +1,4 @@
-# Project-1
+# Travel-Guide
 
 ---
 
@@ -25,7 +25,7 @@ For my 5th Challenge its time to make a Day Scheduler! My projects are on displa
 
 To view the project, clone the git repository using VS Code. this will allow you to vie the index.html file ass well as the css style file. The website can be view by right clicking in the index.html file and opening via web browser.
 
-Link to deployed website: https://github.com/Galdronis/Project-1
+Link to deployed website: https://github.com/Galdronis/Travel-Guide
 
 ---
 
