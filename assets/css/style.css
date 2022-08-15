@@ -1,0 +1,43 @@
+.top {
+  font-size: 20px;
+  font-weight: 220;
+  color: white;
+  opacity: .98;
+  background-clip: text;  
+}
+
+.top ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+.contentArea {
+  background-image: url(../images/mainpic1.jpeg);
+  background-size: cover;
+  height: 800px;
+  opacity: 0.98;
+  background-color: black;
+}
+
+.weatherArea {
+  background-image: url(../images/mainpic2.jpeg);
+  height: 500px;
+  width: 900px;
+  opacity: 0.98;
+}
+
+.welcomePage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  position: absolute;
+  top: 300px;
+  left: 515px;
+  color: white;
+  background-color: #007bff;
+  border-radius: 15;
+}
