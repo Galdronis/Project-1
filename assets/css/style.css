@@ -1,36 +1,59 @@
 .top {
-  font-size: 20px;
-  font-weight: 220;
-  color: white;
+  display: flex;
+  font-size: 22px;
+  font-weight: 200;
+  background-color: white;
   opacity: .98;
   background-clip: text;  
 }
 
-.top ul {
-  display: flex;
-  justify-content: space-evenly;
+.pageChangers {
+  justify-content: flex-start;
 }
 
+.social-links {
+  
+}
 
 .contentArea {
-  background-image: url(../images/mainpic1.jpeg);
+  background-image:linear-gradient( rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35) ), url(../images/mainpic1.jpeg);
   background-size: cover;
-  height: 800px;
+  height: 868px;
   opacity: 0.98;
   background-color: black;
 }
 
+.textArea {
+  background-color: #F0F0F0;
+}
+
 .weatherArea {
-  background-image: url(../images/mainpic2.jpeg);
+  background-image: url(../images/mainpic3.webp);
   height: 500px;
-  width: 900px;
+  width: 750px;
   opacity: 0.98;
 }
 
 .welcomePage {
+  position: absolute;
+  top: 375px;
+  left: 370px;
+  font-size: 65px;
+  font-weight: 300;
+  color: white;
+  background-color: transparent;
+  border-radius: 15;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.card {
+  left: 780px;
+}
+
+.socialIcons {
+  color: grey
 }
 
 h1 {
@@ -40,4 +63,31 @@ h1 {
   color: white;
   background-color: #007bff;
   border-radius: 15;
+}
+
+.size {
+  width: auto;
+  max-height: 300px;
+}
+
+#smaller {
+  width: auto;
+  max-height: 250px;
+  margin-bottom: 50px;
+}
+
+.btn {
+  border: none;
+  background-color: hsl(360, 91%, 36%);
+  border-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px
+    0px;
+  color: hsl(0, 0%, 100%);
+  display: inline-block;
+  font-size: 22px;
+  line-height: 22px;
+  margin: 16px 16px 16px 20px;
+  padding: 14px 34px;
+  text-align: center;
+  cursor: pointer;
 }
