@@ -13,23 +13,25 @@
 
 
   <body>
+    
+    <header class="top fixed-top">
+      <nav class="topBar d-flex justify-content-between">
+        <ul class="pageChangers d-flex px-2">
+          <a class="socialIcons px-4" href="./homepage.html">Home</a>
+          <a class="socialIcons px-4" href="./food.html">Places to Eat</a>
+          <a class="socialIcons px-4" href="./sites.html">Things to Do</a>
+          <a class="socialIcons px-4" href="./history.html">History & Fun Facts</a>
+        </ul>
 
-    <nav>
-      <ul class="pageChangers">
-        <a href="./homepage.html">Home</a>
-        <a href="./hotels.html">Places to Stay</a>
-        <a href="./sites.html">Things to Do</a>
-        <a href="./history.html">History & Fun Facts</a>
-      </ul>
-
-      <ul class="social-links">
-        <a href=""></a>
-        <a href=""></a>
-        <a href=""></a>
-        <a href=""></a>
-        <a href=""></a>
-      </ul>
-    </nav>
+        <ul class="social-links">
+          <a class="facebookLink" href="https://www.facebook.com/ExperienceColumbus"><span class="facebook-text">Facebook</span></a>
+          <a class="instagramLink" href="https://www.instagram.com/experiencecolumbus/"><span class="instagram-text">Instagram</span></a>
+          <a class="twitterLink" href="https://twitter.com/expcols"><span class="twitter-text">Twitter</span></a>
+          <a class="youtubeLink" href="https://www.youtube.com/user/ExperienceColumbus"><span class="youtube-text">Youtube</span></a>
+          <a class="tiktokLink" href="https://www.tiktok.com/t/ZTdpDkLGM/"><span class="tiktok-text">Tik-Tok</span></a>
+        </ul>
+      </nav>
+    </header>
 
     <h2 class="d-flex justify-content-center">Early History</h2>
     <p class="col align-self-start">Columbus has a rich history starting long before its incorporation in 1816. As far back as 1000 B.C., the area that would become Columbus was inhabited by various indigenous peoples known as the Mound Builders. The most significant of their living structures is the burial mounds that can still be found in Columbus today! In the conclusion of the Seven Years' War, the territory where Columbus would be built was ceded to the british empire, paving the way for the eventual western settling of the area.</p>
@@ -62,10 +64,15 @@
 
     <img class="size" id="smaller" src="./assets/images/990px-Columbus_Pano_2.jpg">
 
+    <div class="card-footer">
+      <button class="btn">Read some fun Facts!</button>
+      <div id="generate" ></div>
+    </div>
+
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
 
-    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/history.js"></script>
   </body>
 
 </html>
