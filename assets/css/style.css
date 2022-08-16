@@ -41,3 +41,14 @@ h1 {
   background-color: #007bff;
   border-radius: 15;
 }
+
+.size {
+  width: auto;
+  max-height: 300px;
+}
+
+#smaller {
+  width: auto;
+  max-height: 250px;
+  margin-bottom: 50px;
+}
