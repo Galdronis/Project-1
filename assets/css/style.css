@@ -1,18 +1,9 @@
 .top {
-  display: flex;
   font-size: 22px;
   font-weight: 200;
   background-color: white;
   opacity: .98;
   background-clip: text;  
-}
-
-.pageChangers {
-  justify-content: flex-start;
-}
-
-.social-links {
-  
 }
 
 .contentArea {
