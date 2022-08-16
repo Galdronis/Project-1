@@ -58,6 +58,7 @@
   height: 500px;
   width: 750px;
   opacity: 0.98;
+  background-size: cover;
 }
 
 .card {
