@@ -1,0 +1,23 @@
+.testClass {
+  display: flex;
+  justify-content: center;
+  
+}
+
+
+img {
+  width: 48%;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+p {
+  text-align: center;
+  padding: 10px;
+}
+h2 {
+  text-align: center;
+}
+.first {
+  padding-top: 50px;
+}
