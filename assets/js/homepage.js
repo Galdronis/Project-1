@@ -17,22 +17,16 @@ function getApi() {
     console.log(data);
     var current = data.current.temp
     var red = data.current.humidity
-    var billiesAnd = data.current.feels_like
-    var hill = data.current.wind_speed
-    var jack = data.current.weather[0].icon
-
+    var blue = data.current.feels_like
+    var green = data.current.wind_speed
+    var yellow = data.current.weather[0].icon
     currentTemp.textContent = current + '°F'
     humidity.textContent = red + '%'
-    feelsLike.textContent = billiesAnd + '°'
-    windSpeed.textContent = hill + " mph"
-    weatherConditions.src = 'http://openweathermap.org/img/wn/' + jack + '@2x.png'
+    feelsLike.textContent = blue + '°'
+    windSpeed.textContent = green + " mph"
+    weatherConditions.src = 'http://openweathermap.org/img/wn/' + yellow + '@2x.png'
   }) 
 };
 
 getApi()
 
-// function displayCurrentDay(data) {
-  
-// }
-
-// displayCurrentDay()
