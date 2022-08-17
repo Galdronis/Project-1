@@ -120,6 +120,12 @@
   cursor: pointer;
 }
 
+.cardFooter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .flex {
   display: flex;
   justify-content: center;
@@ -128,4 +134,5 @@
 
 #generate {
   display: block;
+  font-size: 25px;
 }
