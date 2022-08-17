@@ -35,12 +35,12 @@ main {
 .socialIcons {
   color: black;
   font-weight: 400;
-  
 
 }
-a {
-  opacity: 1;
-}
+/* .socialIcons2 {
+  font-size: 50%;
+} */
+
 img {
   width: 49%;
   padding-left: 10px;
