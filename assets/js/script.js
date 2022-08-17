@@ -17,6 +17,7 @@ function placesToEat() {
     .then(function(data) {
         console.log(data)
 
+
     })
 }
 placesToEat()
@@ -25,13 +26,13 @@ placesToEat()
 function restaurantData() {
     var restaurantRowEl = document.createElement('<tr>');
 
-    var restaurantNameEl = document.createElement('<td>').text()
+    var restaurantNameEl = document.createElement('<td>');
 
-    var addressEl = document.createElement('td')
+    var addressEl = document.createElement('<td>');
 
-    var phoneNumberEl = document.createElement('td')
+    var phoneNumberEl = document.createElement('<td>');
 
-    var ratingEl = document.createElement('td')
+    var ratingEl = document.createElement('<td>');
 
 restaurantRowEl.append(
     restaurantNameEl,
