@@ -16,7 +16,10 @@ function placesToEat() {
     })
     .then(function(data) {
         console.log(data)
-
+        for(i=0; i < data.businesses.length; i++) {
+            restaurantData()
+            restaurantNameEl.textContent = data.businesses[i].name
+        }
 
     })
 }
