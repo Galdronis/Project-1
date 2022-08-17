@@ -64,17 +64,9 @@
   border-radius: 15;
 }
 
-.textArea {
-  background-color: #F0F0F0;
-}
 
-.weatherArea {
-  background-image: url(../images/mainpic3.webp);
-  height: 500px;
-  width: 750px;
-  opacity: 0.98;
-  background-size: cover;
-}
+
+
 
 .card {
   left: 780px;

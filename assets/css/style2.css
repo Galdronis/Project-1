@@ -37,9 +37,12 @@ main {
   font-weight: 400;
 
 }
-/* .socialIcons2 {
-  font-size: 50%;
-} */
+.forecastFont {
+  font-size: 35%;
+}
+.crewImage {
+  width: 48%;
+}
 
 img {
   width: 49%;
