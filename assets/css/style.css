@@ -30,6 +30,7 @@
 	content: '\f2d5';
 }
 
+
 .contentArea {
   background-image:linear-gradient( rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35) ), url(../images/mainpic1.jpeg);
   background-size: cover;

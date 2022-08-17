@@ -1,34 +1,38 @@
 var baseUrl = 'https://api.openweathermap.org/data/2.5/onecall?lat=39.9622601&lon=-83.0007065&units=imperial&appid=386bacec31981402aa86b34dbee56885';
 var currentTemp = document.getElementById('current-temp')
-var tempHigh = document.getElementById('temp-high')
-var tempLow = document.getElementById('temp-low')
+var humidity = document.getElementById('humidity')
+var feelsLike = document.getElementById('feels-like')
 var windSpeed = document.getElementById('wind-speed')
-var humidityPercent = document.getElementById('humidity-percent')
+var weatherConditions = document.getElementById('weather-conditions')
 
 
 
-function callApi() {
+function getApi() {
+
   fetch(baseUrl)
-  then(function (response) {
-    console.log(response);
-      if (response.ok) {
-        response.json().then(function(data) {
-          console.log(data)
-          displayCurrentDay()
-        })
-      }
+  .then(function(response) {
+    return response.json();
   })
+  .then(function(data) {
+    console.log(data);
+    var current = data.current.temp
+    var red = data.current.humidity
+    var billiesAnd = data.current.feels_like
+    var hill = data.current.wind_speed
+    var jack = data.current.weather[0].icon
+
+    currentTemp.textContent = current + '°F'
+    humidity.textContent = red + '%'
+    feelsLike.textContent = billiesAnd + '°'
+    windSpeed.textContent = hill + " mph"
+    weatherConditions.src = 'http://openweathermap.org/img/wn/' + jack + '@2x.png'
+  }) 
 };
 
+getApi()
 
-function displayCurrentDay(data) {
-  var inputValue =inputEl.value
-  currentDay.innerHTML = '';
-  var h1El = document.createElement ('h1');
-  h1El.textContent = inputValue; 
-  //plug into function
-  var h1 = document.createElement('h1');
-  h1.textContent = data.current.temp;
-  currentDay.append(h1);
-  currentDay.append(h1El);
-}
+// function displayCurrentDay(data) {
+  
+// }
+
+// displayCurrentDay()
