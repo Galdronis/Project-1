@@ -76,10 +76,10 @@
 /* Foods Page */
 
 .container-fluid {
-  background-image:linear-gradient( rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55) ), url(../images/mainpic2.jpeg);
+  background-image:linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75) ), url(../images/mainpic2.jpeg);
   background-size: cover;
   width: 100%;
-  height: 868px;
+  height: 100%;
   opacity: 0.98;
   background-color: black;
   display: flex;

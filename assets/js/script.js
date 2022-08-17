@@ -28,7 +28,6 @@ function placesToEat() {
             phoneNumberEl.textContent = data.businesses[i].phone
             ratingEl.textContent = data.businesses[i].rating
         }
-
     })
 }
 placesToEat()
