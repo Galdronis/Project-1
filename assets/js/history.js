@@ -4,10 +4,12 @@ var sports = document.getElementById("sports")
 var random = document.getElementById("random")
 var social = document.getElementById("social")
 var food = document.getElementById("food")
+var selectEl = document.getElementById("categories")
 
 var sportsArray = [
         "The NFL headquartered in columbus in the 1930s!",
         "The OSU marching band is also known as The Best Damn Band in the Land!",
+        "The Old Columbus Crew Stadium was the first dedicated soccer stadium in the country!",
 ]
 
 var randomArray = [
@@ -30,11 +32,16 @@ var socialArray = [
 ]
 
 
-btn.addEventListener("click", generateFact);
+function displayFact() {
+    console.log("ya mum")
+}
 
 
+function handleParameters() {
+    var select = selectEl.val()
 
+    displayFact(select)
+}
 
-
-
-
+selectEl.addEventListener("click", handleParameters)
+btn.addEventListener("click", displayFact)
