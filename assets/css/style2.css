@@ -7,21 +7,12 @@
   font-size: 45px;
 }
 main {
-  background-color: lightblue;
+  background-color: rgb(188, 238, 255);
 }
 .top {
-  background: rgb(255, 235, 205);
+  background: rgb(255, 213, 150);
   opacity: .8;
-}
-.cloudImage {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  
-  align-items: center;
-}
-.cloudImage2 {
-  margin: -50px 2px;
+
 }
 #mine {
   font-size: 150%;
@@ -43,11 +34,8 @@ main {
 }
 .socialIcons {
   color: black;
-  font-weight: 400;
+  font-weight: 200;
 
-}
-.weatherArea {
-  font-size: 200%;
 }
 .forecastFont {
   font-size: 35%;
@@ -75,12 +63,7 @@ h2 {
 .first {
   padding-top: 65px;
 }
-@media screen and (max-width: 1280px) {
-  .crewImage {
-    width: 98%;
-    padding: 5px 10px;
-  }
-}
+
 @media screen and (max-width: 1180px) {
   * {
     font-size: 32px;
@@ -115,7 +98,6 @@ h2 {
     width: 98%;
     padding: 5px 10px;
   }
-  
   #mine {
     flex-direction: column;
     font-size: 100%;
