@@ -7,8 +7,10 @@
   font-size: 45px;
 }
 main {
-  background-color: rgb(188, 238, 255);
+
+  background-color: rgb(118, 221, 255);
 }
+
 .top {
   background: rgb(255, 213, 150);
   opacity: .8;
@@ -37,12 +39,24 @@ main {
   font-weight: 200;
 
 }
+
+.weatherArea {
+  font-size: 200%;
+}
+
 .forecastFont {
   font-size: 35%;
 }
 .crewImage {
   width: 48%;
 }
+.lastP {
+  padding: 0;
+}
+.lastlastP {
+  padding-bottom: 20px;
+}
+
 
 img {
   width: 49%;
