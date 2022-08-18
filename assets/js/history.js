@@ -5,6 +5,7 @@ var random = document.getElementById("random").value
 var social = document.getElementById("social").value
 var food = document.getElementById("food").value
 var select = document.getElementById("categories").value
+var famous = document.getElementById("famous").value
 
 
 var sportsArray = [
@@ -15,12 +16,14 @@ var sportsArray = [
 
 var randomArray = [
         "The tallest building in Columbus is the Rhodes State Office Tower standing at nearly 650 feet!",
-        "Columbus is the home city of many famous people including Simone Biles and R.L. Stine!",
 ]
 
 var foodArray = [
         "The very first Wendy's was opened here!",
-        
+        "",
+        "",
+        "",
+        "",
     ]
 
 var socialArray = [
@@ -30,11 +33,23 @@ var socialArray = [
         "Lincoln learned he would become president while at the columbus statehouse!",
         "Columbus is home to the country's first ever standalone pediatric mental health pavilion!",
         "Columbus is home to one of the biggest Pride events in the country!",
+        "",
+        "",
+        "",
+        "",
 ]
 
 var famousArray = [
     "Famous chef Guy Fieri was born here!",
-
+    "Famous Olympic gymnast Simone Biles was born here!",
+    "Famous horror author R.L Stine was born here!",
+    "Best known for his role as Ted Mosby in How I Met Your Mother, Josh Radnor was born here!",
+    "Famous college football player Archie Griffin was born here!",
+    "Billionaire business tycoon Leslie Wexner was born here!",
+    "Twenty One Pilots began in Columbus!",
+    "Prescott Bush, the father of H.W. Bush was born here!",
+    "Famous screenwriter Donald Ogden Stewart was born here!",
+    "Metal band Beartooth formed here!",
 ]
 
 
@@ -62,9 +77,9 @@ btn.addEventListener("click", function(event) {
             var randomFact = Math.floor(Math.random() * (foodArray.length))
                 document.getElementById("generate").innerHTML = foodArray[randomFact]
         }
-        else if (selection === "Famous") {
-            var randomFact = Math.floor(Math.random() * (foodArray.length))
-                document.getElementById("generate").innerHTML = foodArray[randomFact]
+        else if (selection === "Celebrities") {
+            var randomFact = Math.floor(Math.random() * (famousArray.length))
+                document.getElementById("generate").innerHTML = famousArray[randomFact]
         }
         
         }
