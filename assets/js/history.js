@@ -62,9 +62,9 @@ btn.addEventListener("click", function(event) {
             var randomFact = Math.floor(Math.random() * (foodArray.length))
                 document.getElementById("generate").innerHTML = foodArray[randomFact]
         }
-        else if (selection === "Famous") {
-            var randomFact = Math.floor(Math.random() * (foodArray.length))
-                document.getElementById("generate").innerHTML = foodArray[randomFact]
+        else if (selection === "Celebrities") {
+            var randomFact = Math.floor(Math.random() * (famousArray.length))
+                document.getElementById("generate").innerHTML = famousArray[randomFact]
         }
         
         }
