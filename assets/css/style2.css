@@ -60,6 +60,20 @@ main {
 .lastlastP {
   padding-bottom: 20px;
 }
+.cloudImage {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.current {
+  color: aqua;
+}
+.current2 {
+  color: rgb(241, 159, 255);
+  padding-bottom: 10px;
+  font-size: 36px;
+}
 
 
 img {

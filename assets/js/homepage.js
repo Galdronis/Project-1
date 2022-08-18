@@ -24,6 +24,10 @@ function getApi() {
     humidity.textContent = red + '%'
     feelsLike.textContent = blue + '°'
     windSpeed.textContent = green + " mph"
+    currentTemp.setAttribute("class", "current2")
+    humidity.setAttribute("class", "current")
+    feelsLike.setAttribute("class", "current")
+    windSpeed.setAttribute("class", "current")
     weatherConditions.src = 'http://openweathermap.org/img/wn/' + yellow + '@2x.png'
   }) 
 };
