@@ -32,6 +32,9 @@ Link to deployed website: https://github.com/Galdronis/Travel-Guide
 ### Usage
 
 (pictures)
+![](./assets/images/readme%20pic1.png)
+
+![](./assets/images/readme%20pic2.png)
 
 ---
 
