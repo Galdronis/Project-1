@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style2.css">
 
     <title>Columbus, OH</title>
   </head>
@@ -16,41 +17,40 @@
   <body>
 
     <header class="top fixed-top">
-      <nav class="topBar d-flex justify-content-between">
-        <ul class="pageChangers d-flex px-2">
-          <a class="socialIcons px-4" href="./homepage.html">Home</a>
-          <a class="socialIcons px-4" href="./food.html">Places to Eat</a>
-          <a class="socialIcons px-4" href="./sites.html">Things to Do</a>
-          <a class="socialIcons px-4" href="./history.html">History & Fun Facts</a>
+      <nav class="topBar">
+        <ul class="pageChangers d-flex px-2" id="mine">
+          <a class="socialIcons socialIcons2" href="./homepage.html">Home</a>
+          <a class="socialIcons socialIcons2" href="./food.html">Places to Eat</a>
+          <a class="socialIcons socialIcons2" href="./sites.html">Things to Do</a>
+          <a class="socialIcons socialIcons2" href="./history.html">History & Fun Facts</a>
         </ul>
 
-        <ul class="social-links">
-          <a class="facebookLink" href="https://www.facebook.com/ExperienceColumbus"><span class="facebook-text">Facebook</span></a>
-          <a class="instagramLink" href="https://www.instagram.com/experiencecolumbus/"><span class="instagram-text">Instagram</span></a>
-          <a class="twitterLink" href="https://twitter.com/expcols"><span class="twitter-text">Twitter</span></a>
-          <a class="youtubeLink" href="https://www.youtube.com/user/ExperienceColumbus"><span class="youtube-text">Youtube</span></a>
-          <a class="tiktokLink" href="https://www.tiktok.com/t/ZTdpDkLGM/"><span class="tiktok-text">Tik-Tok</span></a>
+        <ul class="social-links mine3" id="mine2">
+          <a class="facebookLink mine3" href="https://www.facebook.com/ExperienceColumbus"><span class="facebook-text">Facebook</span></a>
+          <a class="instagramLink mine3" href="https://www.instagram.com/experiencecolumbus/"><span class="instagram-text">Instagram</span></a>
+          <a class="twitterLink mine3" href="https://twitter.com/expcols"><span class="twitter-text">Twitter</span></a>
+          <a class="youtubeLink mine3" href="https://www.youtube.com/user/ExperienceColumbus"><span class="youtube-text">Youtube</span></a>
+          <a class="tiktokLink mine3" href="https://www.tiktok.com/t/ZTdpDkLGM/"><span class="tiktok-text">Tik-Tok</span></a>
         </ul>
       </nav>
     </header>
 
-    <header>
-      <h1 class="hideThis">:)</h1>
-    </header>
+    
 
 
 
 
     
-  <div class="container-fluid">
+  <div class="container-fluid first">
 
     <table class="table text-white">
       <thead>
         <tr>
         <th>Restaurant Name:</th>
-        <th>Address:</th>
+        <th id="address">Address:</th>
         <th>Phone Number:</th>
-        <th>Ratings: (Out of 5 Stars)</th>
+        <th id="rating">Ratings: (Out of 5 Stars)</th>
+        <th id="rating2">Ratings:</th>
         </tr>
       </thead>
       <tbody id="restaurant-display"></tbody>

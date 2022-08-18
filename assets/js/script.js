@@ -29,11 +29,13 @@ function restaurantData(businesses) {
 
   var restaurantNameEl = document.createElement("td");
   var restaurantYelp = document.createElement("a");
+  restaurantYelp.setAttribute("class", "fontSize")
   restaurantYelp.href = businesses[i].url;
   restaurantYelp.textContent = businesses[i].name;
   restaurantNameEl.append(restaurantYelp)
 
   var addressEl = document.createElement("td");
+  addressEl.setAttribute("class", "addressBeGone")
 
   var phoneNumberEl = document.createElement("td");
 
