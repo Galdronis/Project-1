@@ -1,6 +1,6 @@
 # Travel-Guide
 
----
+
 
 ## Table of Contents 
 
@@ -31,7 +31,6 @@ Link to deployed website: https://github.com/Galdronis/Travel-Guide
 
 ### Usage
 
-(pictures)
 ![](./assets/images/readme%20pic1.png)
 
 ![](./assets/images/readme%20pic2.png)
@@ -40,15 +39,16 @@ Link to deployed website: https://github.com/Galdronis/Travel-Guide
 
 ## User Story
 
-AS A coding boot camp student
-I WANT to take a timed quiz on JavaScript fundamentals that stores high scores
-SO THAT I can gauge my progress compared to my peers
+As a User I want to look up Columbus and view varied information about the city, Restuarents, Places to go, and History of the city. I want to see the current weather information and a clean page with smoot transitions to other pages and mobile friendly scaling.
 
 ---
 
 #### Acceptance Criteria
 
-Project Requirements: 
+<br>  
+
+
+**Project Requirements:**
 
 You and your group will use everything you’ve learned over the past six modules to create a real-world front-end application that you’ll be able to showcase to potential employers. The user story and acceptance criteria will depend on the project that you create, but your project must fulfil the following requirements:
 
@@ -72,7 +72,9 @@ Have a clean repository that meets quality coding standards (file structure, nam
 
 Have a quality README (with unique name, description, technologies used, screenshot, and link to deployed application).
 
-Presentation Requirements:
+<br>  
+
+**Presentation Requirements:**
 
 Use this Project Presentation Template (Links to an external site.) to address the following:
 
