@@ -76,13 +76,13 @@ main {
 }
 .hidden {
   list-style: none;
-  color: black;
+  color: inherit;
   font-weight: inherit;
 }
 .hidden:hover {
   text-decoration-line: none;
   cursor: inherit;
-  color: black;
+  color: inherit;
   
 }
 
