@@ -7,10 +7,10 @@
   font-size: 45px;
 }
 main {
-  background-color: lightblue;
+  background-color: rgb(118, 221, 255);
 }
 .top {
-  background: rgb(255, 235, 205);
+  background: rgb(255, 242, 224);
   opacity: .8;
 }
 .cloudImage {
@@ -46,6 +46,9 @@ main {
   font-weight: 400;
 
 }
+.socialIcons2 {
+  font-size: 33px;
+}
 .weatherArea {
   font-size: 200%;
 }
@@ -55,6 +58,13 @@ main {
 .crewImage {
   width: 48%;
 }
+.lastP {
+  padding: 0;
+}
+.lastlastP {
+  padding-bottom: 20px;
+}
+
 
 img {
   width: 49%;
