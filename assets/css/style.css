@@ -64,19 +64,19 @@
   border-radius: 15;
 }
 
-
-
-
-
 .card {
   left: 780px;
+}
+
+.textBox {
+  font-size: large;
 }
 
 
 /* Foods Page */
 
 .container-fluid {
-  background-image:linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75) ), url(../images/mainpic2.jpeg);
+  background-image:linear-gradient( rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65) ), url(../images/mainpic2.jpeg);
   background-size: cover;
   width: 100%;
   height: 100%;
