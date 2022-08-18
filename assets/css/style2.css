@@ -74,6 +74,17 @@ main {
   padding-bottom: 10px;
   font-size: 36px;
 }
+.hidden {
+  list-style: none;
+  color: black;
+  font-weight: inherit;
+}
+.hidden:hover {
+  text-decoration-line: none;
+  cursor: inherit;
+  color: black;
+  
+}
 
 
 img {
