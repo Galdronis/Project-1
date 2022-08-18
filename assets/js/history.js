@@ -1,9 +1,9 @@
 var btn = document.querySelector(".btn");
 var generateFact = document.getElementById("generate")
-var sports = document.getElementById("sports")
-var random = document.getElementById("random")
-var social = document.getElementById("social")
-var food = document.getElementById("food")
+var sports = document.getElementById("sports").value
+var random = document.getElementById("random").value
+var social = document.getElementById("social").value
+var food = document.getElementById("food").value
 var select = document.getElementById("categories").value
 
 
@@ -34,10 +34,29 @@ var socialArray = [
 
 
 btn.addEventListener("click", function(event) {
-    var element = event.target
-    console.log(element)
-    if (element === sports) {
-        console.log("anything")
-    }
-}
-)
+    
+         var selectEl = document.getElementById("categories");
+        console.log(selectEl);
+    
+        var selection = selectEl.value;
+        console.log("selection: " + selection);
+    
+        if (selection === "Sports") {
+            var randomFact = Math.floor(Math.random() * (sportsArray.length))
+            document.getElementById("generate").innerHTML = sportsArray[randomFact]
+        } 
+        else if (selection === "Random") {
+                var randomFact = Math.floor(Math.random() * (randomArray.length))
+                document.getElementById("generate").innerHTML = randomArray[randomFact]
+        }
+        else if (selection === "Social") {
+            var randomFact = Math.floor(Math.random() * (socialArray.length))
+                document.getElementById("generate").innerHTML = socialArray[randomFact]
+        }
+        else if (selection === "Food") {
+            var randomFact = Math.floor(Math.random() * (foodArray.length))
+                document.getElementById("generate").innerHTML = foodArray[randomFact]
+        }
+        
+        }
+    )
