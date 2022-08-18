@@ -4,7 +4,8 @@ var sports = document.getElementById("sports")
 var random = document.getElementById("random")
 var social = document.getElementById("social")
 var food = document.getElementById("food")
-var selectEl = document.getElementById("categories")
+var select = document.getElementById("categories").value
+
 
 var sportsArray = [
         "The NFL headquartered in columbus in the 1930s!",
@@ -32,16 +33,11 @@ var socialArray = [
 ]
 
 
-function displayFact() {
-    console.log("ya mum")
+btn.addEventListener("click", function(event) {
+    var element = event.target
+    console.log(element)
+    if (element === sports) {
+        console.log("anything")
+    }
 }
-
-
-function handleParameters() {
-    var select = selectEl.val()
-
-    displayFact(select)
-}
-
-selectEl.addEventListener("click", handleParameters)
-btn.addEventListener("click", displayFact)
+)
