@@ -17,7 +17,7 @@
 
 ## Project Description 
 
-For my 5th Challenge its time to make a Day Scheduler! My projects are on display via Github, with clickable images as well as my resume in a clickable PDF file. 
+For our First Project together we wanted to make a Travel Guide to Columbus where live API's feed their data into our widgets and placements. Columbus is a great city and we want to show it off! My projects are on display via Github, with clickable images as well as my resume in a clickable PDF file. 
 
 ---
 
@@ -35,9 +35,17 @@ Link to deployed website: https://github.com/Galdronis/Travel-Guide
 
 ![](./assets/images/readme%20pic2.png)
 
+![](./assets/images/readme%20pic3.png)
+
+![](./assets/images/readme%20pic4.png)
+
+![](./assets/images/readme%20pic5.png)
+
+![](./assets/images/readme%20pic6.png)
+
 ---
 
-## User Story
+### User Story
 
 As a User I want to look up Columbus and view varied information about the city, Restuarents, Places to go, and History of the city. I want to see the current weather information and a clean page with smoot transitions to other pages and mobile friendly scaling.
 
