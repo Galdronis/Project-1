@@ -34,7 +34,15 @@ var socialArray = [
 
 var famousArray = [
     "Famous chef Guy Fieri was born here!",
-
+    "Max's sister Maggie Wright (famous by association) works at Jeni's Splendid Ice Cream!",
+    "Famous for his role as Ted Mosby in How I Met Your Mother, Josh Radnor is from here!",
+    "College Football star Archie Griffin is from here!",
+    "Olympic gymnast and record holder Simone Biles was born here!",
+    "Billionaire business tycoon Leslie Wexner was born here!",
+    "Twenty One Pilots started here!",
+    "Metal band Beartooth formed here!",
+    "Prescott Bush, father of former President H.W. Bush was born here!",
+    "Horror writer R.L. Stine was born here!",
 ]
 
 
