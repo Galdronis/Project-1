@@ -3,7 +3,7 @@
   justify-content: center;
   flex-direction: row;
 }
-* {
+body {
   font-size: 45px;
 }
 main {
@@ -38,6 +38,10 @@ main {
   color: black;
   font-weight: 200;
 
+}
+.socialIcons2 {
+  font-size: 33px;
+  padding: 0px 18px;
 }
 
 .weatherArea {
@@ -77,10 +81,30 @@ h2 {
 .first {
   padding-top: 65px;
 }
+th {
+  font-size: 28px;
+}
+td, .fontSize {
+  font-size: 22px;
+}
+@media screen and (max-width: 1350px) {
+  th {
+    font-size: 24px;
+  }
+  td, .fontSize {
+    font-size: 20px;
+  }
+}
+#rating2 {
+  display: none;
+}
 
 @media screen and (max-width: 1180px) {
-  * {
+  body {
     font-size: 32px;
+  }
+  .socialIcons2 {
+    font-size: 28px;
   }
   #mine {
     display: flex;
@@ -102,6 +126,18 @@ h2 {
   .first {
     padding-top: 94px;
   }
+  th {
+    font-size: 24px;
+  }
+  td, .fontSize {
+    font-size: 20px;
+  }
+  #rating {
+    display: none;
+  }
+  #rating2 {
+    display: table-cell;
+  }
 }
 @media screen and (max-width: 875px) {
   .testClass {
@@ -117,6 +153,11 @@ h2 {
     font-size: 100%;
   }
   .first {
-    padding-top: 184px;
+    padding-top: 210px;
+  }
+}
+@media screen and (max-width: 650px) {
+  #address, .addressBeGone {
+    display: none;
   }
 }
