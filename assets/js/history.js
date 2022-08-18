@@ -8,7 +8,7 @@ var select = document.getElementById("categories").value
 
 
 var sportsArray = [
-        "The NFL headquartered in columbus in the 1930s!",
+        "The NFL headquartered in Columbus in the 1930s!",
         "The OSU marching band is also known as The Best Damn Band in the Land!",
         "The Old Columbus Crew Stadium was the first dedicated soccer stadium in the country!",
 ]
@@ -20,7 +20,7 @@ var randomArray = [
 
 var foodArray = [
         "The very first Wendy's was opened here!",
-        "Famous chef Guy Fieri was born here!",
+        
     ]
 
 var socialArray = [
@@ -28,8 +28,13 @@ var socialArray = [
         "Ohio obtained statehood in 1803, but Columbus wasn't the capitol until 1816!",
         "forty eight percent of Americans live within a day's drive from Columbus!",
         "Lincoln learned he would become president while at the columbus statehouse!",
-        "Columbus is home to the country's first ever standalone mental health pavilion!",
+        "Columbus is home to the country's first ever standalone pediatric mental health pavilion!",
         "Columbus is home to one of the biggest Pride events in the country!",
+]
+
+var famousArray = [
+    "Famous chef Guy Fieri was born here!",
+
 ]
 
 
@@ -56,6 +61,10 @@ btn.addEventListener("click", function(event) {
         else if (selection === "Food") {
             var randomFact = Math.floor(Math.random() * (foodArray.length))
                 document.getElementById("generate").innerHTML = foodArray[randomFact]
+        }
+        else if (selection === "Celebrities") {
+            var randomFact = Math.floor(Math.random() * (famousArray.length))
+                document.getElementById("generate").innerHTML = famousArray[randomFact]
         }
         
         }
