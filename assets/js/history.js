@@ -11,15 +11,39 @@ var sportsArray = [
         "The NFL headquartered in Columbus in the 1930s!",
         "The OSU marching band is also known as The Best Damn Band in the Land!",
         "The Old Columbus Crew Stadium was the first dedicated soccer stadium in the country!",
+        "Actor and voice actor J.K. Simmons is a huge Ohio State Buckeyes fan!",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
 ]
 
 var randomArray = [
         "The tallest building in Columbus is the Rhodes State Office Tower standing at nearly 650 feet!",
         "Columbus is the home city of many famous people including Simone Biles and R.L. Stine!",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
 ]
 
 var foodArray = [
         "The very first Wendy's was opened here!",
+        "Fifty thousand pounds of chocolate a day are produced at the Anthony Thomas Candy Company in Columbus",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
         
     ]
 
@@ -30,6 +54,10 @@ var socialArray = [
         "Lincoln learned he would become president while at the columbus statehouse!",
         "Columbus is home to the country's first ever standalone pediatric mental health pavilion!",
         "Columbus is home to one of the biggest Pride events in the country!",
+        "",
+        "",
+        "",
+        "",
 ]
 
 var famousArray = [
