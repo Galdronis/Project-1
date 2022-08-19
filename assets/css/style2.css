@@ -16,6 +16,9 @@ main {
   opacity: .8;
 
 }
+input {
+  font-size: 22px;
+}
 #mine {
   font-size: 150%;
   margin: 0;
@@ -58,7 +61,7 @@ main {
   padding: 0;
 }
 .lastlastP {
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 .cloudImage {
   display: flex;
