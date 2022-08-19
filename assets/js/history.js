@@ -128,7 +128,7 @@ btn.addEventListener("click", function(event) {
         console.log(selectEl);
     
         var selection = selectEl.value;
-        console.log("selection: " + selection);
+        console.log(selection);
     
         if (selection === "Sports") {
             var randomFact = Math.floor(Math.random() * (sportsArray.length))
@@ -150,8 +150,9 @@ btn.addEventListener("click", function(event) {
             var randomFact = Math.floor(Math.random() * (famousArray.length))
                 document.getElementById("generate").innerHTML = famousArray[randomFact]
         }
-        else if (selection === "Any")
+        else if (selection === "Any") {
             var randomFact = Math.floor(Math.random() * (anyArray.length))
                 document.getElementById("generate").innerHTML = anyArray[randomFact]
         }
-    )
+    
+})
